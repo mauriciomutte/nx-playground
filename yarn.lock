@@ -1483,7 +1483,7 @@
   dependencies:
     nx "14.5.10"
 
-"@nrwl/cypress@14.5.10":
+"@nrwl/cypress@14.5.10", "@nrwl/cypress@^14.0.0":
   version "14.5.10"
   resolved "https://registry.yarnpkg.com/@nrwl/cypress/-/cypress-14.5.10.tgz#18abfa136ddde1ba5d4d976ee5303ff59a14f1db"
   integrity sha512-NymwWehtpgCNZBLV/jwvKFCHWz4mw8+YG70uAheyO4ybkCmA2ghvaOG3shni9MG9mOMfRGz5Cc23/ScIekxA2w==
@@ -1508,7 +1508,7 @@
     webpack "^4 || ^5"
     webpack-node-externals "^3.0.0"
 
-"@nrwl/devkit@14.5.10":
+"@nrwl/devkit@14.5.10", "@nrwl/devkit@^14.3.6":
   version "14.5.10"
   resolved "https://registry.yarnpkg.com/@nrwl/devkit/-/devkit-14.5.10.tgz#b87bc3dad8e6d019c76adf7f65a56af19df70283"
   integrity sha512-YVT0MRvyXwe0uczUZK4XUi1f2iLAqklFMfAoqwfgcgWToH8xN06NSlyUphD4eLHFgem3Sd0kimAJVsnse/PTlA==
@@ -1531,7 +1531,7 @@
     confusing-browser-globals "^1.0.9"
     semver "7.3.4"
 
-"@nrwl/jest@14.5.10":
+"@nrwl/jest@14.5.10", "@nrwl/jest@^14.0.0":
   version "14.5.10"
   resolved "https://registry.yarnpkg.com/@nrwl/jest/-/jest-14.5.10.tgz#1e808608665660c59e4b3026ba0eab7f86153163"
   integrity sha512-gGqghwDcpBhk8TNK2Gfp/5PWqnnAPUjNfSCOz39kk9ZBtsyloozGwjg/VEF3k2p9uCifRfAyZOpDrSdALxBpdA==
@@ -1569,7 +1569,7 @@
     source-map-support "0.5.19"
     tree-kill "1.2.2"
 
-"@nrwl/linter@14.5.10":
+"@nrwl/linter@14.5.10", "@nrwl/linter@^14.0.0":
   version "14.5.10"
   resolved "https://registry.yarnpkg.com/@nrwl/linter/-/linter-14.5.10.tgz#c9c78c796667f985ebbc4e126dc37ae5b14f0921"
   integrity sha512-3c6KhSLJmt8wMkYZw+f/KayPHkM+KV/z+QaYQL59XY5o9DdYyq6jHjnvu/CuW2JzU97yHkacYbwkSFQlDKCyIg==
@@ -1771,6 +1771,18 @@
     tslib "^2.3.0"
     yargs "^17.4.0"
     yargs-parser "21.0.1"
+
+"@nx-plus/nuxt@^14.1.0":
+  version "14.1.0"
+  resolved "https://registry.yarnpkg.com/@nx-plus/nuxt/-/nuxt-14.1.0.tgz#9d2fe71b75aa64971de8d44d8125e5e8c7bf997a"
+  integrity sha512-3+xKHCdTrqnZXBJgjRZYPrYsdr+oomlOAa5lqskplF/GIe++Fp4ZOc1j/dplmhBoAK475pvoLrUser2dqqVGPw==
+  dependencies:
+    "@nrwl/devkit" "^14.3.6"
+    fs-extra "^10.0.0"
+    rxjs "7.5.1"
+    semver "^7.3.5"
+    tsconfig-paths-webpack-plugin "3.5.2"
+    typescript "4.5.4"
 
 "@parcel/watcher@2.0.4":
   version "2.0.4"
@@ -7968,6 +7980,13 @@ run-parallel@^1.1.9:
   dependencies:
     queue-microtask "^1.2.2"
 
+rxjs@7.5.1:
+  version "7.5.1"
+  resolved "https://registry.yarnpkg.com/rxjs/-/rxjs-7.5.1.tgz#af73df343cbcab37628197f43ea0c8256f54b157"
+  integrity sha512-KExVEeZWxMZnZhUZtsJcFwz8IvPvgu4G2Z2QyqjZQzUGr32KDYuSxrEYO4w3tFFNbfLozcrKUTvTPi+E9ywJkQ==
+  dependencies:
+    tslib "^2.1.0"
+
 rxjs@^6.5.4:
   version "6.6.7"
   resolved "https://registry.yarnpkg.com/rxjs/-/rxjs-6.6.7.tgz#90ac018acabf491bf65044235d5863c4dab804c9"
@@ -8849,6 +8868,11 @@ typedarray-to-buffer@^3.1.5:
   integrity sha512-zdu8XMNEDepKKR+XYOXAVPtWui0ly0NtohUscw+UmaHiAWT8hrV1rr//H6V+0DvJ3OQ19S979M0laLfX8rm82Q==
   dependencies:
     is-typedarray "^1.0.0"
+
+typescript@4.5.4:
+  version "4.5.4"
+  resolved "https://registry.yarnpkg.com/typescript/-/typescript-4.5.4.tgz#a17d3a0263bf5c8723b9c52f43c5084edf13c2e8"
+  integrity sha512-VgYs2A2QIRuGphtzFV7aQJduJ2gyfTljngLzjpfW9FoYZF6xuw1W0vW9ghCKLfcWrCFxK81CSGRAvS1pn4fIUg==
 
 typescript@~4.7.2:
   version "4.7.4"
