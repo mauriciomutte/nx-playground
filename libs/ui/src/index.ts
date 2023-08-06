@@ -1,1 +1,1 @@
-export * from './lib/button/button';
+export * from './button/button';
